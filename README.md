@@ -36,21 +36,6 @@ It supports log level filtering, optional time-based sorting, and log statistics
 
 [INFO]: 56      [ERROR]: 21     [WARNING]: 23
 
-## 🌲 File Structure
-Log-Parser
-├── include
-│   └── parser.h
-├── log_parser
-├── Makefile
-├── obj
-│   ├── main.o
-│   └── parser.o
-├── README.md
-├── sample.log
-└── src
-    ├── main.c
-    └── parser.c
-
 ## 🛠️ Future Improvement
     - Add support for outputting results to a file using -o <outputfile> option
     - Enable exporting logs in JSON or CSV format
