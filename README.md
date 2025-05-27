@@ -11,9 +11,9 @@ It supports log level filtering, optional time-based sorting, and log statistics
 - Display count summary for each log level
 
 ## 🖥️ Sample Log Format
-- [11:05] [INFO] System started
-- [09:15] [ERROR] Failed to open database
-- [10:45] [INFO] User login successful
+    - [11:05] [INFO] System started
+    - [09:15] [ERROR] Failed to open database
+    - [10:45] [INFO] User login successful
 
 ## ▶️ Run
     - ./log_parser -f <filename> [options]
@@ -29,10 +29,10 @@ It supports log level filtering, optional time-based sorting, and log statistics
         - ./log_parser -f sample.log -l INFO -s
 
 ## 📊 Output Example
-...
-- [11:15] [ERROR] Service timeout
-- [15:45] [ERROR] Deadlock detected
-- [13:00] [ERROR] Sync conflict
+    ...
+    - [11:15] [ERROR] Service timeout
+    - [15:45] [ERROR] Deadlock detected
+    - [13:00] [ERROR] Sync conflict
 
 [INFO]: 56      [ERROR]: 21     [WARNING]: 23
 
