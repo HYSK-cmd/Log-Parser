@@ -17,12 +17,12 @@ It supports log level filtering, optional time-based sorting, and log statistics
 
 ## ▶️ Run
 ./log_parser -f <filename> [options]
-    **📘 Options**
-    - "-f <filename>": specify log file to be parsed (required)
-    **📘 Options**
-    - "-l <level>": filter logs by level
-    - "-s": sort logs by time 
-    **EXAMPLE**
+    - **📘 Options**
+       - "-f <filename>": specify log file to be parsed (required)
+    - **📘 Options**
+       - "-l <level>": filter logs by level
+       - "-s": sort logs by time 
+    - **EXAMPLE**
         - ./log_parser -f sample.log
         - ./log_parser -f sample.log -l ERROR
         - ./log_parser -f sample.log -s
@@ -30,9 +30,9 @@ It supports log level filtering, optional time-based sorting, and log statistics
 
 ## 📊 Output Example
 ...
-[11:15] [ERROR] Service timeout
-[15:45] [ERROR] Deadlock detected
-[13:00] [ERROR] Sync conflict
+- [11:15] [ERROR] Service timeout
+- [15:45] [ERROR] Deadlock detected
+- [13:00] [ERROR] Sync conflict
 
 [INFO]: 56      [ERROR]: 21     [WARNING]: 23
 
