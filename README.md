@@ -11,9 +11,9 @@ It supports log level filtering, optional time-based sorting, and log statistics
 - Display count summary for each log level
 
 ## 🖥️ Sample Log Format
-[11:05] [INFO] System started
-[09:15] [ERROR] Failed to open database
-[10:45] [INFO] User login successful
+- [11:05] [INFO] System started
+- [09:15] [ERROR] Failed to open database
+- [10:45] [INFO] User login successful
 
 ## ▶️ Run
 ./log_parser -f <filename> [options]
