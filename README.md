@@ -16,7 +16,7 @@ It supports log level filtering, optional time-based sorting, and log statistics
 - [10:45] [INFO] User login successful
 
 ## ▶️ Run
-- ./log_parser -f <filename> [options]
+    - ./log_parser -f <filename> [options]
     - **📘 Options**
        - "-f <filename>": specify log file to be parsed (required)
     - **📘 Options**
